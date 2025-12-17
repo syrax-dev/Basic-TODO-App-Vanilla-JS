@@ -48,25 +48,6 @@ Basic-TODO-App-Vanilla-JS/
 
 ---
 
-## ⚙️ How to Run Locally
-
-1. Clone the repository
-
-   ```bash
-   git clone https://github.com/syrax-dev/Basic-TODO-App-Vanilla-JS.git
-   ```
-
-2. Open the project folder
-
-   ```bash
-   cd Basic-TODO-App-Vanilla-JS
-   ```
-
-3. Open `index.html` in your browser
-   *(No build steps required)*
-
----
-
 ## 🙌 Acknowledgements
 
 This project was created as a **foundation-level JavaScript project** to improve hands-on understanding of core concepts without using any frameworks.
