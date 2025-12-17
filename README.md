@@ -67,22 +67,6 @@ Basic-TODO-App-Vanilla-JS/
 
 ---
 
-## 🌐 Deployment
-
-The project is deployed using **Netlify** and automatically updates on every push to the `main` branch.
-
----
-
-## ✨ Future Improvements
-
-* Edit existing tasks
-* Filter tasks (All / Completed / Pending)
-* Clear completed tasks
-* Improved UI/UX animations
-* Dark mode toggle
-
----
-
 ## 🙌 Acknowledgements
 
 This project was created as a **foundation-level JavaScript project** to improve hands-on understanding of core concepts without using any frameworks.
