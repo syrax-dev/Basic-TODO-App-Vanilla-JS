@@ -15,26 +15,34 @@
   <body>
     <!-- Simple Navbar With Heading -->
     <nav id="nav-bar">
-      <div class="nav-div-1">
+      <header class="nav-div-1">
         <h1 id="todo-head">My TODO List</h1>
-      </div>
+      </header>
     </nav>
-    <!-- Input & Add-Btn -->
-    <div id="input-div">
-      <input
-        type="text"
-        name="task-input"
-        id="task-input"
-        placeholder="Add a Task..."
-      />
-      <button id="add-btn">Add</button>
-    </div>
-    <!-- Task Lists -->
-    <div id="task-li">
-      <ul id="todo-list"></ul>
-    </div>
+
+    <!-- Main Content Area -->
+    <main>
+      <!-- Input & Add-Btn -->
+      <section id="input-div">
+        <label for="task-input" class="visually-hidden">Task Input</label>
+        <input
+          type="text"
+          name="task-input"
+          id="task-input"
+          placeholder="Add a Task..."
+          aria-label="Enter a new task"
+        />
+        <button id="add-btn" type="button" aria-label="Add task">Add</button>
+      </section>
+
+      <!-- Task Lists -->
+      <section id="task-li" aria-label="Task list">
+        <ul id="todo-list"></ul>
+      </section>
+    </main>
+
     <!-- Footer -->
-    <div id="footer-div"><footer>Made by SyraxDev ❤️</footer></div>
+    <footer id="footer-div">Made by SyraxDev ❤️</footer>
     <script src="script.js"></script>
   </body>
 </html>
